@@ -1,0 +1,68 @@
+.container {
+    padding: 20px;
+    display:flex;
+    flex-flow: column;
+}
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+th {
+    padding: 20px !important;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4a261;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+select {
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+option {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+button:active {
+    background-color: #004d00;
+    transform: scale(0.95);
+}

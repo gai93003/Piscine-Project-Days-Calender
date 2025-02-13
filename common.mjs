@@ -45,6 +45,5 @@ export function getNthWeekdayOfMonth(year, monthName, dayName, occurrence) {
             }
         }
     }
-
     return null;
 }
