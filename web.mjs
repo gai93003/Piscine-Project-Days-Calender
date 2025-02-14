@@ -11,7 +11,7 @@ let END_YEAR   = 2050;
 let monthName  = ["January", "February", "March", "April", "May", "June", "July", 
                     "August", "September", "October", "November", "December"];
 
-function populateYearMonth() {
+export function populateYearMonth() {
     let today = new Date();
     let year  = document.getElementById("year-selector");
     let month = document.getElementById("month-selector");
@@ -34,7 +34,7 @@ function populateYearMonth() {
     month.value = monthName[today.getMonth()];
 }
 
-function createCalendar() {
+export function createCalendar() {
     let year = document.getElementById("year-selector");
     let month = document.getElementById("month-selector");
     let table = document.getElementById("calendar");
